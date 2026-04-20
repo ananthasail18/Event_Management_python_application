@@ -1,70 +1,59 @@
-# 🎉 Event Management Python Application
+# Event Planner Application
 
-A visually interactive **Event Planning Desktop Application** built using **Python (Tkinter + PIL)**. This application allows users to plan and customize events such as **Weddings, Birthdays, and Corporate Events** with theme selection, food packages, and cost estimation.
+A desktop-based Event Planning Application developed using Python (Tkinter and Pillow). The application enables users to plan and customize events such as weddings, birthdays, and corporate events with theme selection, food packages, and cost estimation.
 
 ---
 
-## 🚀 Features
+## Features
 
-* 🎊 Multiple Event Types
+* Multiple event types:
 
   * Wedding
   * Birthday
-  * Corporate Events
+  * Corporate events
 
-* 🎨 Theme Selection
+* Theme and event selection:
 
-  * Lavish
-  * Traditional
-  * Hybrid
-  * Theme Party & Glamourous (Birthday)
+  * Lavish, Traditional, Hybrid (Wedding)
+  * Theme Party, Glamourous (Birthday)
+  * AGM, Award Function, Fresher’s Party (Corporate)
 
-* 🍽️ Food Package Options
+* Food package options:
 
   * Basic
   * Elite
   * Premium
 
-* 👥 Guest Count Input
+* Guest count input for dynamic pricing
 
-  * Calculates total cost based on number of attendees
+* Automatic cost calculation:
 
-* 💰 Dynamic Cost Calculation
+  * Event cost + Food cost = Total cost
 
-  * Event Cost + Food Cost = Total Cost
+* Booking summary and confirmation screen
 
-* 📊 Booking Summary
-
-  * Displays full breakdown before confirmation
-
-* ✅ Booking Confirmation Screen
-
-* 🖼️ Interactive UI
-
-  * Background images
-  * Hover animations
-  * Clickable event cards
+* Interactive graphical user interface with images and hover effects
 
 ---
 
-## 🛠️ Tech Stack
+## Tech Stack
 
 * Python
-* Tkinter (GUI)
-* Pillow (PIL for image handling)
+* Tkinter (GUI framework)
+* Pillow (image processing)
 
 ---
 
-## 📂 Project Structure
+## Project Structure
 
 Event-Planner/
 │── latest.py
-│── assets (images)
+│── image files
 │── README.md
 
 ---
 
-## ⚙️ Installation & Setup
+## Installation and Setup
 
 1. Clone the repository
 
@@ -87,9 +76,9 @@ python latest.py
 
 ---
 
-## 🖼️ Required Image Files
+## Required Image Files
 
-Make sure all the following images are present in the same directory as `latest.py`:
+Ensure the following files are present in the same directory as `latest.py`:
 
 * background2.png
 * background4.jpeg
@@ -110,41 +99,35 @@ Make sure all the following images are present in the same directory as `latest.
 
 ---
 
-## 🧠 How It Works
+## How It Works
 
-1. Select an event type (Wedding / Birthday / Corporate)
-2. Choose a theme or event type
+1. Select an event type
+2. Choose a theme or event category
 3. Select a food package
 4. Enter number of guests
-5. View calculated total cost
+5. View total cost
 6. Confirm booking
 
 ---
 
-## ⚠️ Notes
+## Notes
 
-* Ensure all image files are correctly named (case-sensitive)
-* Missing images may cause errors or blank UI elements
+* File names are case-sensitive
+* Missing images may affect UI rendering
 * Guest input must be a valid number
 
 ---
 
-## 🌟 Future Improvements
+## Future Enhancements
 
-* Add database to store bookings
+* Database integration for storing bookings
 * Export booking summary as PDF
-* Add login/signup system
-* Integrate payment gateway
-* Convert to web-based app
+* User authentication system
+* Payment gateway integration
+* Migration to web-based platform
 
 ---
 
-## 🤝 Contributing
+## License
 
-Feel free to fork and improve this project. Contributions are welcome!
-
----
-
-## 📄 License
-
-This project is for educational purposes and can be freely modified.
+This project is intended for educational use and can be modified freely.
